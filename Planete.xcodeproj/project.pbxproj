@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2407C51D2AE04E00908BD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2407C41D2AE04E00908BD1 /* main.m */; };
+		DC2407C81D2AE04E00908BD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2407C71D2AE04E00908BD1 /* AppDelegate.m */; };
+		DC2407CB1D2AE04E00908BD1 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2407CA1D2AE04E00908BD1 /* GameScene.m */; };
+		DC2407D01D2AE04E00908BD1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2407CF1D2AE04E00908BD1 /* GameViewController.m */; };
+		DC2407D51D2AE04E00908BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2407D41D2AE04E00908BD1 /* Assets.xcassets */; };
+		DC2407E31D2AE04E00908BD1 /* PlaneteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2407E21D2AE04E00908BD1 /* PlaneteTests.m */; };
+		DC2407EE1D2AE04E00908BD1 /* PlaneteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2407ED1D2AE04E00908BD1 /* PlaneteUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC2407DF1D2AE04E00908BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2407B81D2AE04E00908BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2407BF1D2AE04E00908BD1;
+			remoteInfo = Planete;
+		};
+		DC2407EA1D2AE04E00908BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2407B81D2AE04E00908BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2407BF1D2AE04E00908BD1;
+			remoteInfo = Planete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC2407C01D2AE04E00908BD1 /* Planete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2407C41D2AE04E00908BD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC2407C61D2AE04E00908BD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC2407C71D2AE04E00908BD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC2407C91D2AE04E00908BD1 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		DC2407CA1D2AE04E00908BD1 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		DC2407CE1D2AE04E00908BD1 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DC2407CF1D2AE04E00908BD1 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DC2407D41D2AE04E00908BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC2407D91D2AE04E00908BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2407DE1D2AE04E00908BD1 /* PlaneteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaneteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2407E21D2AE04E00908BD1 /* PlaneteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaneteTests.m; sourceTree = "<group>"; };
+		DC2407E41D2AE04E00908BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2407E91D2AE04E00908BD1 /* PlaneteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaneteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2407ED1D2AE04E00908BD1 /* PlaneteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaneteUITests.m; sourceTree = "<group>"; };
+		DC2407EF1D2AE04E00908BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC2407BD1D2AE04E00908BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2407DB1D2AE04E00908BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2407E61D2AE04E00908BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2407B71D2AE04E00908BD1 = {
+			isa = PBXGroup;
+			children = (
+				DC2407C21D2AE04E00908BD1 /* Planete */,
+				DC2407E11D2AE04E00908BD1 /* PlaneteTests */,
+				DC2407EC1D2AE04E00908BD1 /* PlaneteUITests */,
+				DC2407C11D2AE04E00908BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC2407C11D2AE04E00908BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC2407C01D2AE04E00908BD1 /* Planete.app */,
+				DC2407DE1D2AE04E00908BD1 /* PlaneteTests.xctest */,
+				DC2407E91D2AE04E00908BD1 /* PlaneteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC2407C21D2AE04E00908BD1 /* Planete */ = {
+			isa = PBXGroup;
+			children = (
+				DC2407C61D2AE04E00908BD1 /* AppDelegate.h */,
+				DC2407C71D2AE04E00908BD1 /* AppDelegate.m */,
+				DC2407C91D2AE04E00908BD1 /* GameScene.h */,
+				DC2407CA1D2AE04E00908BD1 /* GameScene.m */,
+				DC2407CE1D2AE04E00908BD1 /* GameViewController.h */,
+				DC2407CF1D2AE04E00908BD1 /* GameViewController.m */,
+				DC2407D41D2AE04E00908BD1 /* Assets.xcassets */,
+				DC2407D91D2AE04E00908BD1 /* Info.plist */,
+				DC2407C31D2AE04E00908BD1 /* Supporting Files */,
+			);
+			path = Planete;
+			sourceTree = "<group>";
+		};
+		DC2407C31D2AE04E00908BD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC2407C41D2AE04E00908BD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC2407E11D2AE04E00908BD1 /* PlaneteTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2407E21D2AE04E00908BD1 /* PlaneteTests.m */,
+				DC2407E41D2AE04E00908BD1 /* Info.plist */,
+			);
+			path = PlaneteTests;
+			sourceTree = "<group>";
+		};
+		DC2407EC1D2AE04E00908BD1 /* PlaneteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2407ED1D2AE04E00908BD1 /* PlaneteUITests.m */,
+				DC2407EF1D2AE04E00908BD1 /* Info.plist */,
+			);
+			path = PlaneteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC2407BF1D2AE04E00908BD1 /* Planete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2407F21D2AE04E00908BD1 /* Build configuration list for PBXNativeTarget "Planete" */;
+			buildPhases = (
+				DC2407BC1D2AE04E00908BD1 /* Sources */,
+				DC2407BD1D2AE04E00908BD1 /* Frameworks */,
+				DC2407BE1D2AE04E00908BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planete;
+			productName = Planete;
+			productReference = DC2407C01D2AE04E00908BD1 /* Planete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC2407DD1D2AE04E00908BD1 /* PlaneteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2407F51D2AE04E00908BD1 /* Build configuration list for PBXNativeTarget "PlaneteTests" */;
+			buildPhases = (
+				DC2407DA1D2AE04E00908BD1 /* Sources */,
+				DC2407DB1D2AE04E00908BD1 /* Frameworks */,
+				DC2407DC1D2AE04E00908BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2407E01D2AE04E00908BD1 /* PBXTargetDependency */,
+			);
+			name = PlaneteTests;
+			productName = PlaneteTests;
+			productReference = DC2407DE1D2AE04E00908BD1 /* PlaneteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC2407E81D2AE04E00908BD1 /* PlaneteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2407F81D2AE04E00908BD1 /* Build configuration list for PBXNativeTarget "PlaneteUITests" */;
+			buildPhases = (
+				DC2407E51D2AE04E00908BD1 /* Sources */,
+				DC2407E61D2AE04E00908BD1 /* Frameworks */,
+				DC2407E71D2AE04E00908BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2407EB1D2AE04E00908BD1 /* PBXTargetDependency */,
+			);
+			name = PlaneteUITests;
+			productName = PlaneteUITests;
+			productReference = DC2407E91D2AE04E00908BD1 /* PlaneteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC2407B81D2AE04E00908BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "ISABELLE  HARNOIS";
+				TargetAttributes = {
+					DC2407BF1D2AE04E00908BD1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DC2407DD1D2AE04E00908BD1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DC2407BF1D2AE04E00908BD1;
+					};
+					DC2407E81D2AE04E00908BD1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DC2407BF1D2AE04E00908BD1;
+					};
+				};
+			};
+			buildConfigurationList = DC2407BB1D2AE04E00908BD1 /* Build configuration list for PBXProject "Planete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC2407B71D2AE04E00908BD1;
+			productRefGroup = DC2407C11D2AE04E00908BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC2407BF1D2AE04E00908BD1 /* Planete */,
+				DC2407DD1D2AE04E00908BD1 /* PlaneteTests */,
+				DC2407E81D2AE04E00908BD1 /* PlaneteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC2407BE1D2AE04E00908BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2407D51D2AE04E00908BD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2407DC1D2AE04E00908BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2407E71D2AE04E00908BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC2407BC1D2AE04E00908BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2407D01D2AE04E00908BD1 /* GameViewController.m in Sources */,
+				DC2407C81D2AE04E00908BD1 /* AppDelegate.m in Sources */,
+				DC2407CB1D2AE04E00908BD1 /* GameScene.m in Sources */,
+				DC2407C51D2AE04E00908BD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2407DA1D2AE04E00908BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2407E31D2AE04E00908BD1 /* PlaneteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2407E51D2AE04E00908BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2407EE1D2AE04E00908BD1 /* PlaneteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC2407E01D2AE04E00908BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC2407BF1D2AE04E00908BD1 /* Planete */;
+			targetProxy = DC2407DF1D2AE04E00908BD1 /* PBXContainerItemProxy */;
+		};
+		DC2407EB1D2AE04E00908BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC2407BF1D2AE04E00908BD1 /* Planete */;
+			targetProxy = DC2407EA1D2AE04E00908BD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC2407F01D2AE04E00908BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC2407F11D2AE04E00908BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC2407F31D2AE04E00908BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Planete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Game.Planete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC2407F41D2AE04E00908BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Planete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Game.Planete;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC2407F61D2AE04E00908BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PlaneteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Game.PlaneteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planete.app/Planete";
+			};
+			name = Debug;
+		};
+		DC2407F71D2AE04E00908BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlaneteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Game.PlaneteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planete.app/Planete";
+			};
+			name = Release;
+		};
+		DC2407F91D2AE04E00908BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PlaneteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Game.PlaneteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Planete;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DC2407FA1D2AE04E00908BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlaneteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Game.PlaneteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Planete;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC2407BB1D2AE04E00908BD1 /* Build configuration list for PBXProject "Planete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2407F01D2AE04E00908BD1 /* Debug */,
+				DC2407F11D2AE04E00908BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2407F21D2AE04E00908BD1 /* Build configuration list for PBXNativeTarget "Planete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2407F31D2AE04E00908BD1 /* Debug */,
+				DC2407F41D2AE04E00908BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC2407F51D2AE04E00908BD1 /* Build configuration list for PBXNativeTarget "PlaneteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2407F61D2AE04E00908BD1 /* Debug */,
+				DC2407F71D2AE04E00908BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC2407F81D2AE04E00908BD1 /* Build configuration list for PBXNativeTarget "PlaneteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2407F91D2AE04E00908BD1 /* Debug */,
+				DC2407FA1D2AE04E00908BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC2407B81D2AE04E00908BD1 /* Project object */;
+}
